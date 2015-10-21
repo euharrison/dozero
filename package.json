@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "node ./node_modules/babel/bin/babel.js index.js -o dozero.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 
-class Harri extends React.Component {
+class Papagaio extends React.Component {
     render() {
         return (
-            <div>Harri!</div>
+            <div>{this.props.say}</div>
         )
     }
 }
 
-console.log(ReactDOM.renderToString(<Harri />));
+console.log(ReactDOM.renderToString(<Papagaio say="Harri?" />));
